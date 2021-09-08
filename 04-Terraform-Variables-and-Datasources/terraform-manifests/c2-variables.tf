@@ -16,5 +16,5 @@ variable "instance_type" {
 variable "instance_keypair" {
     description = "AWS EC2 Instance Key Pair"
     type = string
-    #default = "terraform-key"
+    #default = "terraform-key" #Terraform will prompt for key
 }
